@@ -6,7 +6,7 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_AIDL_INCLUDES := packages/apps/SmartCardService/openmobileapi/src/org/simalliance/openmobileapi/service
 
 LOCAL_PACKAGE_NAME := SmartcardService
-LOCAL_CERTIFICATE := appstore
+LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 
 LOCAL_JAVA_LIBRARIES := core-libart framework org.simalliance.openmobileapi
